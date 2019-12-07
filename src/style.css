@@ -4,7 +4,7 @@ html {
   color: #686886e6;
 }
 
-.form {
+.panel {
   width: 100%;
   max-width: 500px;
   margin: 50px auto;
@@ -17,6 +17,10 @@ html {
 label {
   display: block;
   margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 input {
