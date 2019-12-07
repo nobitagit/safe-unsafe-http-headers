@@ -1,0 +1,10 @@
+
+[[headers]]
+for = "/src/safe.html"
+  [headers.values]
+    Referrer-Policy = "same-origin"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'"
+    Feature-Policy = "display-capture 'none';"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
